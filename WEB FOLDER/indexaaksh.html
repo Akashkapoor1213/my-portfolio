@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aakash portfolio</title>
+    <link rel="stylesheet" href="aakash.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+
+<body>
+    <nav>
+        <li><a href="indexaaksh.html">HOME</a></li>
+        <li><a href="second.html">ABOUT</a></li>
+        <li><a href="service.html">SERVICE</a></li>
+        <li><a href="hire.html">HIRE ME</a></li>
+        <img onclick="hide()" class="cut-icon" src="https://clipground.com/images/x-image-png-6.png" alt="">
+    </nav>
+    <img onclick="show()" class="menu-icon" src="https://th.bing.com/th/id/OIP.svBJWBQ6AfxCvUmZgkOj5AHaHa?rs=1&pid=ImgDetMain" alt="icon">
+    
+    <div class="hero">
+        <h1>I,am <span>Aakash</span></h1>
+        <p>This is official portfolio website to showes all
+            <br>Details and work experience web development.
+        </p>
+        <br>
+        <a href="#">DOWNLOAD CV</a>
+        <br>
+        <br>
+        <br><br>
+        <a href="contact.html">Contact me</a>
+    </div>
+    <div class="img">
+        <img src="img/aahfhfh.jfif" alt="thio">
+    </div>
+    <br>
+
+    <!-- ------------about section------------------- -->
+
+
+    <section class="about">
+        <div class="main">
+            <img src="https://wallpapercave.com/wp/wp9641838.jpg" alt="">
+            <div class="about-text">
+                <h1>About us..</h1>
+                <h5>Developer and designer</h5>
+                <p>Hello I,am Aakash fontend Developer. I am pursuing my Bca from Himalayan Group of professional
+                    Insitution Kala Amb Distt.Sirmour.
+                    i can provide clean code design. I also make the website more & more interactive with web
+                    animatios.I can also a clean code and pixel prefect design. I also make the website more interactive
+                    with web animations. A responsive design makes your website accessible to all users,regardless of
+                    their device.</p>
+                    <button type="button">let's talk</button>
+
+            </div>
+        </div>
+
+    </section>
+
+<script>
+  
+  function show(){
+    const nav = document.querySelector("nav");
+    nav.style.right="0px";
+    const menuIcon = document.querySelector(".menu-icon");
+    menuIcon.style.display="none"
+  }
+
+  function hide(){
+    const nav = document.querySelector("nav");
+    nav.style.right="-300px";
+    const menuIcon = document.querySelector(".menu-icon");
+    menuIcon.style.display="block"
+  }
+
+</script>
+  
+</body>
+
+</html>

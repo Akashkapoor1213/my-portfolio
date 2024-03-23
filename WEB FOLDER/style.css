@@ -1,0 +1,9 @@
+*box {
+    boader: 2px red;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}

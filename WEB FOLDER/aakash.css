@@ -1,0 +1,161 @@
+* {
+    padding: 10px;
+    margin: 0;
+}
+body{
+    
+}
+nav {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    float: right;
+    margin: auto;
+
+}
+
+
+a {
+    text-decoration: none;
+    list-style: none;
+    padding: 60px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+
+
+}
+
+nav a:hover {
+    color: goldenrod;
+
+}
+
+.hero {
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+span {
+    color: orange;
+    font-family: serif
+}
+
+p {
+    color: purple;
+    line-height: 22px;
+    font-size: 30px;
+}
+
+.hero a {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+.img {
+    height: 100vh;
+    width: 50%;
+
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    bottom: 150px;
+    margin-left: 850px;
+    image-resolution: 100%;
+    border-radius: 50%;
+    background-color: white;
+    object-fit: cover;
+}
+
+a:hover {
+    color: darkred;
+}
+
+h2 {
+    padding: 20px;
+    margin: 40px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(173, 172, 172);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.menu-icon,
+.cut-icon {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+
+
+}
+
+.menu-icon {
+    display: none;
+}
+
+.cut-icon {
+    display: none;
+}
+
+
+@media (max-width:600px) {
+    nav {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    body {
+        overflow: hidden;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0, 19, 4, 0.288);
+        position: absolute;
+        right: -300px;
+
+    }
+
+    .cut-icon {
+        display: block;
+    }
+
+    img {
+        width: 200px;
+        height: 250px;
+        margin-left: 300px;
+        margin-right: 20px;
+        position: absolute;
+        right: 10px;
+        top: 200px;
+    }
+
+    .hero {
+        margin-left: 0;
+        margin-top: 30px;
+
+    }
+
+    .hero p {
+        font-size: 18px;
+        letter-spacing: 1px;
+
+    }
+}
